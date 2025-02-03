@@ -32,21 +32,19 @@
         <p>status: <span id="state">inicializando...</span></p>
         <p>amp: <span id="amplitude">0</span></p>
         <p>freq: <span id="frequency">0</span> Hz</p>
+        All code by Deana <a href="https://github.com/girlglock">Github</a>
     </div>
 
     <button id="toggleSettings">configurações</button>
 
     <div id="settings">
         <label class="toggle-container">
-            <input type="checkbox" id="hideUI"> esconder UI elements
+            <input type="checkbox" id="hideUI"> Esconder UI elements
             <span class="checkmark"></span>
         </label>
-        <br>
-        <br>
         <label>url de repositório de sobreposição:</label>
         <input type="text" id="folder-path" placeholder="https://github.com/seugithub/pastadeimagens">
         <p><em>arquivos necessários: silent.png, a.png, e.png, i.png, o.png, u.png, speaking.png, loading.png</em></p>
-        <br>
 
         <label>"a" freq:</label>
         <div class="slider-container">
@@ -87,7 +85,7 @@
         <label>amp threshold:</label>
         <input type="number" id="threshold">
 
-        <br><br>
+        <br>
         <button type="button" onclick="generateURL()">pegar url</button><br>
         <textarea id="generated-url" readonly rows="2"></textarea>
         <p><em>adicione <code>--enable-media-stream</code> aos seus parâmetros de inicialização do OBS para permitir que as fontes do navegador acessem seu microfone</em></p>
